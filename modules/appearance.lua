@@ -8,15 +8,22 @@ hl.config({
 		col = {
 			active_border = {
 				colors = {
-					"rgba(89b4faff)",
 					"rgba(aa00ffff)",
+					"rgba(00000000)",
+					"rgba(aaaaffff)",
 				},
-				angle = 0,
+				angle = 45,
 			},
 		},
 	},
 	decoration = {
 		rounding = 0,
+
+		glow = {
+			enabled = 0,
+			range = 20,
+			color = 0xff9955ff,
+		},
 
 		-- opacity & blur
 		active_opacity = 0.95,
