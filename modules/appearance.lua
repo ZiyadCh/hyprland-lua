@@ -1,10 +1,10 @@
-------------------------------------------------------------
--- APPEARANCE
-------------------------------------------------------------
-
 hl.config({
+
+	-- borders
 	general = {
 		border_size = 5,
+		gaps_in = 7,
+		gaps_out = 15,
 		col = {
 			active_border = {
 				colors = {
@@ -18,6 +18,7 @@ hl.config({
 	decoration = {
 		rounding = 0,
 
+		-- opacity & blur
 		active_opacity = 0.95,
 		inactive_opacity = 0.85,
 
