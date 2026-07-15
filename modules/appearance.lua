@@ -3,41 +3,41 @@ hl.config({
 	-- borders
 	general = {
 		border_size = 0,
-		gaps_in = 7,
+		gaps_in = 10,
 		gaps_out = 15,
 		col = {
 			active_border = {
 				colors = {
-					"rgba(0000ffff)",
+					"rgba(2222ffff)",
 				},
 				angle = 45,
 			},
 		},
 	},
 	decoration = {
-		rounding = 0,
+		rounding = 15,
 
 		-- inner glow
 		glow = {
 			enabled = 1,
 			range = 30,
-			color = 0xff7722ff,
+			color = 0xff5555ff,
 			-- render_power = 2,
 		},
 
 		-- opacity & blur
-		active_opacity = 0.85,
+		active_opacity = 0.90,
 		inactive_opacity = 0.85,
 
 		blur = {
 			enabled = true,
 			size = 2,
-			passes = 4,
+			passes = 3,
 		},
 
 		shadow = {
 			enabled = true,
-			range = 30,
+			range = 40,
 			render_power = 3,
 			color = 0xff000000,
 		},
