@@ -51,16 +51,10 @@ hl.animation({
 	style = "slidefade",
 })
 
-hl.animation({
-	leaf = "border",
-	enabled = true,
-	speed = 80,
-	bezier = "easeOutCirc",
-})
-hl.animation({
-	leaf = "borderangle",
-	enabled = true,
-	speed = 80,
-	bezier = "easeOutCirc",
-	style = "loop",
-})
+-- hl.animation({
+-- 	leaf = "borderangle",
+-- 	enabled = true,
+-- 	speed = 50,
+-- 	bezier = "linear",
+-- 	style = "loop",
+-- })

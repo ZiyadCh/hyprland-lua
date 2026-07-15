@@ -2,15 +2,13 @@ hl.config({
 
 	-- borders
 	general = {
-		border_size = 5,
+		border_size = 0,
 		gaps_in = 7,
 		gaps_out = 15,
 		col = {
 			active_border = {
 				colors = {
-					"rgba(aa00ffff)",
-					"rgba(00000000)",
-					"rgba(aaaaffff)",
+					"rgba(0000ffff)",
 				},
 				angle = 45,
 			},
@@ -19,28 +17,38 @@ hl.config({
 	decoration = {
 		rounding = 0,
 
+		-- inner glow
 		glow = {
-			enabled = 0,
-			range = 20,
-			color = 0xff9955ff,
+			enabled = 1,
+			range = 30,
+			color = 0xff7722ff,
+			-- render_power = 2,
 		},
 
 		-- opacity & blur
-		active_opacity = 0.95,
+		active_opacity = 0.85,
 		inactive_opacity = 0.85,
 
 		blur = {
 			enabled = true,
-			size = 5,
-			passes = 2,
-			vibrancy = 0.2,
+			size = 2,
+			passes = 4,
 		},
 
 		shadow = {
 			enabled = true,
-			range = 20,
+			range = 30,
 			render_power = 3,
-			color = 0xaa000000,
+			color = 0xff000000,
 		},
 	},
+})
+
+hl.window_rule({
+	name = "opacity",
+	match = {
+		class = "helium",
+	},
+
+	opacity = "0.95 override 0.95 override ",
 })
