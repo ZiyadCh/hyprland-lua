@@ -51,10 +51,10 @@ hl.animation({
 	style = "slidefade",
 })
 
--- hl.animation({
--- 	leaf = "borderangle",
--- 	enabled = true,
--- 	speed = 50,
--- 	bezier = "linear",
--- 	style = "loop",
--- })
+hl.animation({
+	leaf = "borderangle",
+	enabled = true,
+	speed = 40,
+	bezier = "linear",
+	style = "loop",
+})
