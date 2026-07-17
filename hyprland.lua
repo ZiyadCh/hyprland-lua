@@ -20,3 +20,9 @@ hl.config({
 		},
 	},
 })
+
+hl.config({
+	scrolling = {
+		follow_focus = true,
+	},
+})
