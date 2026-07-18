@@ -24,9 +24,9 @@ hl.config({
 
 		-- inner glow
 		glow = {
-			enabled = 0,
-			range = 30,
-			color = 0xff00aaff,
+			enabled = 1,
+			range = 40,
+			color = 0xbbfafaff,
 			-- render_power = 2,
 		},
 
@@ -60,6 +60,16 @@ hl.window_rule({
 
 	opacity = "0.95 override 0.95 override ",
 })
+hl.layer_rule({
+	match = { namespace = "waybar" },
+	blur = true,
+})
+
+hl.layer_rule({
+	match = { namespace = "rofi" },
+	blur = true,
+})
+
 hl.on("hyprland.start", function()
-	hl.exec_cmd("hyprctl setcursor Qogir-light 32")
+	hl.exec_cmd("hyprctl setcursor Qogir-light 64")
 end)
