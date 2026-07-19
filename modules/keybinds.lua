@@ -9,7 +9,7 @@ local mod = "SUPER"
 ------------------------------------------------------------
 
 hl.bind(mod .. " + RETURN", hl.dsp.exec_cmd("kitty"))
-hl.bind(mod .. " + SPACE", hl.dsp.exec_cmd("rofi -show drun"))
+hl.bind(mod .. " + SPACE", hl.dsp.exec_cmd("$HOME/.config/rofi/launchers/type-3/launcher.sh"))
 hl.bind(mod .. " + BACKSPACE", hl.dsp.exec_cmd("wlogout -b 4"))
 
 hl.bind(mod .. " + E", hl.dsp.exec_cmd("kitty yazi"))
@@ -32,6 +32,8 @@ hl.bind(mod .. " + H", hl.dsp.focus({ direction = "left" }))
 hl.bind(mod .. " + J", hl.dsp.focus({ direction = "down" }))
 hl.bind(mod .. " + K", hl.dsp.focus({ direction = "up" }))
 hl.bind(mod .. " + L", hl.dsp.focus({ direction = "right" }))
+hl.bind(mod .. " + mouse_down", hl.dsp.focus({ direction = "right" }))
+hl.bind(mod .. " + mouse_up", hl.dsp.focus({ direction = "left" }))
 
 ------------------------------------------------------------
 -- MOVE WINDOWS
@@ -41,7 +43,6 @@ hl.bind(mod .. " + SHIFT + H", hl.dsp.window.move({ direction = "left" }))
 hl.bind(mod .. " + SHIFT + J", hl.dsp.window.move({ direction = "down" }))
 hl.bind(mod .. " + SHIFT + K", hl.dsp.window.move({ direction = "up" }))
 hl.bind(mod .. " + SHIFT + L", hl.dsp.window.move({ direction = "right" }))
-
 ------------------------------------------------------------
 -- WORKSPACES
 ------------------------------------------------------------
@@ -53,7 +54,7 @@ end
 
 hl.bind("ALT + A", hl.dsp.focus({ workspace = "e-1" }))
 hl.bind("ALT + D", hl.dsp.focus({ workspace = "e+1" }))
-
+hl.bind("ALT + D", hl.dsp.focus({ workspace = "e+1" }))
 ------------------------------------------------------------
 -- AUDIO
 ------------------------------------------------------------

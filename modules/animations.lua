@@ -54,7 +54,7 @@ hl.animation({
 	enabled = true,
 	speed = 1.4,
 	spring = "smoothslow",
-	style = "slide",
+	style = "slidefade ",
 })
 
 hl.animation({

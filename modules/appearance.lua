@@ -58,7 +58,7 @@ hl.window_rule({
 		class = "helium",
 	},
 
-	opacity = "0.95 override 0.95 override ",
+	opacity = "0.90 override 0.95 override ",
 })
 hl.layer_rule({
 	match = { namespace = "waybar" },
