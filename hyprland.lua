@@ -7,6 +7,7 @@ require("modules.animations")
 require("modules.appearance")
 require("modules.keybinds")
 require("modules.webapps")
+require("modules.plugins")
 hl.config({
 	general = {
 		layout = "scrolling",

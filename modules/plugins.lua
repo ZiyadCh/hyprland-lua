@@ -1,0 +1,12 @@
+--
+-- hl.config({
+-- 	plugin = {
+-- 		imgborders = {
+-- 			enabled = true,
+-- 			image = "~/.config/mango/wallpapers/atlantis.png",
+-- 			sizes = "1,2,3,4", -- left, right, top, bottom
+-- 			insets = "1,2,3,4", -- left, right, top, bottom
+-- 			scale = 5.2,
+-- 		},
+-- 	},
+-- })
