@@ -33,8 +33,8 @@ hl.curve("easy", {
 hl.curve("smoothslow", {
 	type = "spring",
 	mass = 3.2,
-	stiffness = 30,
-	dampening = 13,
+	stiffness = 250,
+	dampening = 40,
 })
 
 ------------------------------------------------------------
@@ -52,7 +52,7 @@ hl.animation({
 hl.animation({
 	leaf = "workspaces",
 	enabled = true,
-	speed = 1.4,
+	speed = 2.4,
 	spring = "smoothslow",
 	style = "slidefade ",
 })

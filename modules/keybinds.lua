@@ -54,7 +54,6 @@ end
 
 hl.bind("ALT + A", hl.dsp.focus({ workspace = "e-1" }))
 hl.bind("ALT + D", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind("ALT + D", hl.dsp.focus({ workspace = "e+1" }))
 ------------------------------------------------------------
 -- AUDIO
 ------------------------------------------------------------
@@ -141,8 +140,8 @@ hl.bind("SUPER + tab", function()
 	end
 end)
 
-hl.bind("ALT + E", hl.dsp.layout("colresize +0.2"))
-hl.bind("ALT + Q", hl.dsp.layout("colresize -0.2"))
+hl.bind("ALT + E", hl.dsp.layout("colresize +0.1"))
+hl.bind("ALT + Q", hl.dsp.layout("colresize -0.1"))
 
 ------------------------------------------------------------
 -- SCRIPTS
