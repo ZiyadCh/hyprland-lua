@@ -2,7 +2,7 @@ hl.config({
 
 	-- borders
 	general = {
-		border_size = 6,
+		border_size = 7,
 		gaps_in = 10,
 		gaps_out = 15,
 		col = {
@@ -26,12 +26,12 @@ hl.config({
 		glow = {
 			enabled = 1,
 			range = 40,
-			color = 0xbbfafaff,
+			color = 0xff000000,
 			-- render_power = 2,
 		},
 
 		-- opacity & blur
-		active_opacity = 0.85,
+		active_opacity = 0.90,
 		inactive_opacity = 0.65,
 
 		blur = {

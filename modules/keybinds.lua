@@ -14,6 +14,7 @@ hl.bind(mod .. " + BACKSPACE", hl.dsp.exec_cmd("wlogout -b 4"))
 
 hl.bind(mod .. " + E", hl.dsp.exec_cmd("kitty yazi"))
 hl.bind(mod .. " + T", hl.dsp.exec_cmd("kitty btop"))
+hl.bind(mod .. " + V", hl.dsp.exec_cmd("kitty opencode"))
 
 ------------------------------------------------------------
 -- WINDOWS
